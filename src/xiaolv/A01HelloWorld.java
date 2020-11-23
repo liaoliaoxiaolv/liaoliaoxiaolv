@@ -8,7 +8,7 @@ package xiaolv;
 public class A01HelloWorld {
 
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("测试推送到 Gitee");
     }
 
 }
