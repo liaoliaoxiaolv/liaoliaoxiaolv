@@ -1,6 +1,8 @@
-package debugging.on2020.field.breakpoint;
+package debugging.on2020.breakpoint.field;
 
 /**
+ * https://www.youtube.com/watch?v=AOrnx-9zNBQ
+ *
  * 字段断点
  *
  * 可以设置读取或修改或者兼而有之时触发
