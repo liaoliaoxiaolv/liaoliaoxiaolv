@@ -11,6 +11,9 @@ public class Planet {
     public String name;
     public String season;
 
+    /**
+     * 更改方法签名 Command + F6，演示 modify 和 delegate
+     */
     public Planet(String name) {
         this.name = name;
     }
