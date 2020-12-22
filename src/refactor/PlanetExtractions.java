@@ -12,6 +12,8 @@ public class PlanetExtractions {
 
     Planet myPlanet = new Planet("earth");
 
+    // I'm using PlanetExtractions to get the facts for my country
+    // I'm using planetextractions to get the facts for my country
     private void printPlanetFacts(final String country) {
 
         System.out.println("Planet name is " + myPlanet.getName());
