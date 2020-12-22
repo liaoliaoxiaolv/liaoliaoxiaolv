@@ -3,7 +3,7 @@ package debugging.on2020.field.breakpoint;
 /**
  * 字段断点
  *
- * 可以设置读取或修改
+ * 可以设置读取或修改或者兼而有之时触发
  *
  * @author moqi
  * On 12/22/20 18:43
