@@ -1,4 +1,4 @@
-package debugging.on2020;
+package debugging.on2020.method.breakpoint;
 
 /**
  * Device 类

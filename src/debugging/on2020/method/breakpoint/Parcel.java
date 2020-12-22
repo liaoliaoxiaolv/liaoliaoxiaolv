@@ -1,4 +1,4 @@
-package debugging.on2020;
+package debugging.on2020.method.breakpoint;
 
 /**
  * Parcel 使用反射调用 Move 的 canMove
