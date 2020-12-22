@@ -10,21 +10,28 @@ package refactor;
 
 public class PlanetExtractions {
 
+    private static final int NUMBER_OF_DAYS_IN_A_YEAR = 365;
+    private final String theWeatherIs = "The weather is";
     Planet myPlanet = new Planet("earth");
 
-    // I'm using PlanetExtractions to get the facts for my country
-    // I'm using planetextractions to get the facts for my country
     private void printPlanetFacts(final String country) {
+
         System.out.println("Planet name is " + myPlanet.getName());
         System.out.println("Current season is " + myPlanet.getCountryWeather());
-        System.out.println("Number of times the planet rotates around the sun is " + 365);
-        System.out.println("Number of characters in planet name = " + myPlanet.getName().length());
+        System.out.println("Number of times the planet rotates around the sun is " + NUMBER_OF_DAYS_IN_A_YEAR);
 
+        int planetNameLength = myPlanet.getName().length();
+        System.out.println("Number of characters in planet name = " + planetNameLength);
+
+        getWeather("UK");
+    }
+
+    private void getWeather(final String country) {
         switch (myPlanet.getCountryWeather()) {
-            case "Spring" -> System.out.println("The weather is warm in the UK");
-            case "Summer" -> System.out.println("The weather is hot in the UK");
-            case "Autumn" -> System.out.println("The weather is cool in the UK");
-            default -> System.out.println("The weather is cold in the UK");
+            case "Spring" -> System.out.println(theWeatherIs + " warm in the " + country);
+            case "Summer" -> System.out.println(theWeatherIs + " hot in the " + country);
+            case "Autumn" -> System.out.println(theWeatherIs + " cool in the " + country);
+            default -> System.out.println(theWeatherIs + " cold in the " + country);
         }
     }
 
