@@ -7,6 +7,8 @@ package debugging.on2020.breakpoint.method;
  *
  * 可以设置方法进入或者退出或者兼而有之时触发
  *
+ * Emulated 解释：https://stackoverflow.com/a/47587625
+ *
  * @author moqi
  * On 12/22/20 18:31
  */
